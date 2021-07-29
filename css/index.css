@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.out {
+    overflow: hidden;
+}
+
+.out>div {
+    /* width: 200px;
+    height: 80px; */
+    float: left;
+    border-bottom: solid 1px #fff;
+    border-left: solid 1px #fff;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+.out>div>img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
